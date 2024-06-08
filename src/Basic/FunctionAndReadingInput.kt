@@ -70,5 +70,5 @@ fun functionName(argument1: Int, argument2: Int): Int {
 }
 
 fun functionDoesNotReturn(argument1: Int) {
-    println("Executing inside function that does not return anything")
+    println("Executing inside function that does not return anything $argument1")
 }
