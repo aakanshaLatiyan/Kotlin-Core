@@ -34,6 +34,9 @@ fun main() {
     println("Lets how to take input from scanner class")
     functionWithScannerInput()
 
+//    create 4 diff variable
+    val (a,b,c,d) = "hi my name chunku".split(" ")
+
 }
 
 fun functionWithScannerInput() {
