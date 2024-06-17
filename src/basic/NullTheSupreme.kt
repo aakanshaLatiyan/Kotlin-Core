@@ -1,4 +1,4 @@
-package Basic
+package basic
 
 /**
  * Kotlin supports both variable null and non-nullable variable

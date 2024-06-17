@@ -1,4 +1,4 @@
-package Basic
+package basic
 
 /**
  * In kotlin there are 6 relational operator ,

@@ -1,4 +1,4 @@
-package Basic
+package basic
 
 import java.util.Scanner
 
@@ -35,7 +35,7 @@ fun main() {
     functionWithScannerInput()
 
 //    create 4 diff variable
-    val (a,b,c,d) = "hi my name chunku".split(" ")
+    val (a,b,c,d) = "hi my name is chunku".split(" ")
 
 }
 

@@ -1,4 +1,4 @@
-package Basic
+package basic
 
 /**
  * Exception are the events that disrupts the normal flow of the program
@@ -8,12 +8,16 @@ package Basic
  * try block is used to write that piece of code in which exception can occur
  * catch block is to write the work we need to do if we caught exception
  * finally block is to write that code regardless of code that executed in try and catch it will always run
+ * We can have multiple catch block for one try
+ * always put sub exception before super exception
  */
 fun main() {
 //    throwException()
     try {
         println("First try block")
         throwException()
+    } catch (e: NumberFormatException) {
+        println("I caught the no format exception")
     } catch (e: Exception) {
         println("I caught the exception")
     } finally {
@@ -21,11 +25,20 @@ fun main() {
     }
 
     try {
+        println("First II try block")
+        throwException()
+    } finally {
+        println("Finally block for first try")
+    }
+
+    println("First try ended")
+
+    try {
         println("second try block")
         doesNotThrowException()
-    }catch (e: Exception) {
+    } catch (e: Exception) {
         println("I caught exception for second try block")
-    }finally {
+    } finally {
         println("Finally block for second try")
     }
 
@@ -33,10 +46,10 @@ fun main() {
         println("third try block")
         doesNotThrowException()
         1
-    }catch (e: Exception) {
+    } catch (e: Exception) {
         println("I caught exception for third try block")
         2
-    }finally {
+    } finally {
         println("Finally block for third try")
     }
 
@@ -44,7 +57,7 @@ fun main() {
 }
 
 fun throwException() {
-    throw Exception()
+    throw NumberFormatException()
 }
 
 fun doesNotThrowException() {

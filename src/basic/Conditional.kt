@@ -1,4 +1,4 @@
-package Basic
+package basic
 
 /**
  * For conditional check we have if-else , if-else-if, nested if , when

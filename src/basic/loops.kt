@@ -1,6 +1,4 @@
-package Basic
-
-import java.util.Objects
+package basic
 
 /**
  * repeat(n) - it repeats whatever written inside repeat to n times

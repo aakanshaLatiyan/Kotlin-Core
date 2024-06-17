@@ -1,4 +1,4 @@
-package Basic
+package basic
 
 /**
  * mutable list are the list which can be altered means element addition and deletion can happen after list is created

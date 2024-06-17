@@ -1,4 +1,4 @@
-package Basic
+package basic
 
 /**
  * Type Conversion also known as type casting

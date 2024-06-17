@@ -1,6 +1,4 @@
-package Basic
-
-import java.util.*
+package basic
 
 /**
  * String and Boolean are two data types
