@@ -7,7 +7,7 @@ package basic
  * instead you can reassign it s = "hellr
  */
 fun main() {
-    val s = "Hello"
+    val s: String = "Hello"
     println("Firsst char is ${s.first()}")
     println("Last char is ${s.last()}")
     println("Length of s  is ${s.length}")
